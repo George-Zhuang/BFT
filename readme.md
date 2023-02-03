@@ -63,7 +63,8 @@ sudo apt-get install ninja-build
 Now, all you need is an image sequence. Then run:
 
 ```bash
-python get_pseudo_label.py -i path_to_your_img_sequence \ # '~/BFT/img_seq'
+python get_pseudo_label.py \
+	-i path_to_your_img_sequence \ # '~/BFT/img_seq'
 	-n name_of_your_img_sequence \ # 'all'
 	-o ./output
 ```
