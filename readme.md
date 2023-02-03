@@ -64,8 +64,8 @@ Now, all you need is an image sequence. Then run:
 
 ```bash
 python get_pseudo_label.py -i path_to_your_img_sequence \ # '~/BFT/img_seq'
-						   -n name_of_your_img_sequence \ # 'all'
-						   -o ./output
+	-n name_of_your_img_sequence \ # 'all'
+	-o ./output
 ```
 
 You can see the results in **./output**.
